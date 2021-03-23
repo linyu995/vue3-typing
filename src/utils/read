@@ -1,0 +1,8 @@
+1.主要三大类：js全局类库；模块类库；Umd 类库（jquery）
+参考资料：https://blog.csdn.net/weixin_30493401/article/details/101406719
+
+2. 代码在utils模块和index.html以及HelloWord(components)模块---进行展示效果，其它代码无用
+
+
+3.typescript 如何写声明文件，或者说typescript 如何使用js 类库；因为typescript
+是静态类型检查文件，而js 是动态类型文件，所以需要一个.d.ts做为文件声明

@@ -1,0 +1,7 @@
+模块类
+  1.创建js 文件 moduleLib.js
+  2.声明文件.d.ts 文件：module.d.ts
+  3.创建ts 文件：moduleexample.ts
+   注意：ts 文件導入js 文件 是可以的，直接导入就可以了：
+    import moduleLib from '../moduleLib/moduleLib.js'
+  4.在Helloword 组件引入使用，即可

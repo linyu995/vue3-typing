@@ -1,9 +1,7 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div>
+   <HelloWorld></HelloWorld>
   </div>
-  <router-view/>
 </template>
 
 <style>
@@ -28,3 +26,9 @@
   color: #42b983;
 }
 </style>
+<script>
+  import HelloWorld from "./components/HelloWorld";
+  export default {
+    components: {HelloWorld}
+  }
+</script>

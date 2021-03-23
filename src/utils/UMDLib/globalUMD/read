@@ -1,0 +1,10 @@
+//全局安装jquery
+  因为jquery 是别人写好的，可以直接使用:
+    1.安装 npm install jquery @typing/jquery
+    2. 就可以直接在.ts文件写样式
+    3.可以在vue 组件引用ts文件，实现效果
+
+
+     一些常识指令：
+    typings search --name jquery
+    tsc ts 文件

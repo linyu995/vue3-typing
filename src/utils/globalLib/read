@@ -1,0 +1,5 @@
+这个typescript 引入js全局类库:
+    在HTML文件<script>标签中引入该库
+    将写好的声明文件与js库放在同一文件夹下，命名相同，后缀名为.d.ts
+    此时可以在ts文件中使用全局API
+    https://blog.csdn.net/banketan1026/article/details/102391190 参考资料
